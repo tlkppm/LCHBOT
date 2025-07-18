@@ -27,7 +27,6 @@ llonebot:
 plugins:
     disabled: []
     enabled:
-    - suspicious_inviter
     - echo
     - help
     - info
