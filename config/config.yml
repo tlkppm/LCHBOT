@@ -2,10 +2,9 @@ bot:
     command_prefix: /
     log_level: DEBUG
     name: LCHBot
-    self_id: '3926775934'
+    self_id: '123456'
     superusers:
-    - '3552936547'
-    - '2878342131'
+    - '123456'
 chat_plugin:
     max_context_length: 10
 group_auth:
