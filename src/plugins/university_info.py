@@ -44,8 +44,8 @@ class UniversityInfo(Plugin):
         # 同时支持英文和中文命令
         self.command_pattern_en = re.compile(r'^/university\s+(.+)$')
         self.command_pattern_zh = re.compile(r'^/大学\s+(.+)$')
-        # 修改为正确的API地址
-        self.api_url = "https://api.52vmy.cn/api/query/daxue"
+        # 请调用你自己的API
+        self.api_url = "https://api.000"
         # 创建临时目录用于存储生成的图片
         self.temp_dir = tempfile.gettempdir()
         logger.info(f"插件 {self.name} (ID: {self.id}) 已初始化")
