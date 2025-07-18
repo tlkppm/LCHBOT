@@ -27,7 +27,6 @@ llonebot:
 plugins:
     disabled: []
     enabled:
-    - group_auth
     - suspicious_inviter
     - echo
     - help
@@ -40,7 +39,6 @@ plugins:
     - admin_menu
     - weather
     - join_verification
-    - rate_limiter
     - university_info
     - sign_points
     - meme_generator
