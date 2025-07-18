@@ -57,13 +57,3 @@ rate_limiter:
     time_window: 30
     whitelist_users:
     - 2854196310
-suspicious_inviter:
-    global:
-        enabled: false
-        max_invites: 3
-        monitor_time: 3
-        reject_add_request: true
-        whitelist_groups: []
-        whitelist_users:
-        - 2854196310
-    groups: {}
