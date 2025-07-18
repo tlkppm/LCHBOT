@@ -1,0 +1,74 @@
+{
+    "enabled": true,
+    "monitor_time": 3,
+    "max_invites": 1,
+    "whitelist_groups": [],
+    "whitelist_users": [],
+    "reject_add_request": true,
+    "global": {
+        "enabled": true,
+        "monitor_time": 3,
+        "max_invites": 3,
+        "whitelist_groups": [],
+        "whitelist_users": [
+            2854196310
+        ],
+        "reject_add_request": true
+    },
+    "groups": {
+        "1056883744": {
+            "enabled": true,
+            "monitor_time": 10,
+            "max_invites": 1,
+            "reject_add_request": true
+        },
+        "763269678": {
+            "enabled": true,
+            "monitor_time": 3,
+            "max_invites": 3,
+            "reject_add_request": true
+        },
+        "966156777": {
+            "enabled": true,
+            "monitor_time": 10,
+            "max_invites": 1,
+            "reject_add_request": true
+        },
+        "852594578": {
+            "enabled": true,
+            "monitor_time": 3,
+            "max_invites": 3,
+            "reject_add_request": true
+        },
+        "235622003": {
+            "enabled": true,
+            "monitor_time": 3,
+            "max_invites": 3,
+            "reject_add_request": true
+        },
+        "627646597": {
+            "enabled": true,
+            "monitor_time": 3,
+            "max_invites": 3,
+            "reject_add_request": true
+        },
+        "708276583": {
+            "enabled": true,
+            "monitor_time": 3,
+            "max_invites": 3,
+            "reject_add_request": true
+        },
+        "1026897554": {
+            "enabled": true,
+            "monitor_time": 3,
+            "max_invites": 3,
+            "reject_add_request": true
+        },
+        "815989760": {
+            "enabled": true,
+            "monitor_time": 3,
+            "max_invites": 3,
+            "reject_add_request": true
+        }
+    }
+}

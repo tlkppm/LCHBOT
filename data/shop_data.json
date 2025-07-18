@@ -1,0 +1,38 @@
+{
+  "global": [
+    {
+      "name": "改名卡",
+      "points": 100,
+      "description": "可以请求管理员帮你修改一次群名片",
+      "created_time": 1627372800
+    },
+    {
+      "name": "专属头衔",
+      "points": 500,
+      "description": "可以请求管理员设置一个专属头衔，为期一周",
+      "created_time": 1627372800
+    },
+    {
+      "name": "抽奖券",
+      "points": 50,
+      "description": "参与一次幸运抽奖活动的机会",
+      "created_time": 1627372800
+    }
+  ],
+  "groups": {
+    "966156777": [
+      {
+        "name": "群活跃报告",
+        "points": 200,
+        "description": "获取一份详细的群活跃度分析报告",
+        "created_time": 1627372800
+      },
+      {
+        "name": "置顶发言",
+        "points": 300,
+        "description": "可以请求管理员将你的一条消息设为精华/置顶",
+        "created_time": 1627372800
+      }
+    ]
+  }
+}

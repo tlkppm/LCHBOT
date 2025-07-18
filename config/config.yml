@@ -1,0 +1,73 @@
+bot:
+    command_prefix: /
+    log_level: DEBUG
+    name: LCHBot
+    self_id: '3926775934'
+    superusers:
+    - '3552936547'
+    - '2878342131'
+chat_plugin:
+    max_context_length: 10
+group_auth:
+    enabled: true
+    warning_interval: 3600
+http_server:
+    host: 127.0.0.1
+    port: 1100
+join_verification:
+    default_wait_time: 5
+    enabled: true
+    verification_message: 欢迎新成员加入！请在{time}分钟内发送任意消息，否则将被移出群聊。
+    whitelist_groups: []
+    whitelist_users:
+    - 2854196310
+llonebot:
+    http_api:
+        base_url: http://127.0.0.1:3000
+        token: your_token_here
+plugins:
+    disabled: []
+    enabled:
+    - group_auth
+    - suspicious_inviter
+    - echo
+    - help
+    - info
+    - complex_msg
+    - activity_tracker
+    - chat_plugin
+    - join_time_tracker
+    - word_games
+    - admin_menu
+    - weather
+    - join_verification
+    - rate_limiter
+    - university_info
+    - sign_points
+    - meme_generator
+    - bilibili_plugin
+    - UserItemManager
+    - Blacklist
+    - user_item_manager
+    - blacklist
+    - message_filter
+    
+    
+proxy: ''
+rate_limiter:
+    blacklist_duration: 10
+    enabled: true
+    max_requests: 5
+    time_window: 30
+    whitelist_users:
+    - 2854196310
+suspicious_inviter:
+    global:
+        enabled: false
+        max_invites: 3
+        monitor_time: 3
+        reject_add_request: true
+        whitelist_groups: []
+        whitelist_users:
+        - 2854196310
+    groups: {}
