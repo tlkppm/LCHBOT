@@ -370,7 +370,7 @@ class ChatPlugin(Plugin):
             })
             
             logger.debug(f"API请求消息数组: {json.dumps(messages)}")
-            
+            #  自行提供的AI API
             payload = json.dumps({
                 "model": "gpt-4o-mini",
                 "messages": messages,
@@ -381,7 +381,7 @@ class ChatPlugin(Plugin):
                 'Content-Type': 'application/json'
             }
             
-            conn.request("POST", "/v1/chat/completions", payload, headers)
+            # conn.request("POST", "", payload, headers)
             res = conn.getresponse()
             data = res.read()
             
