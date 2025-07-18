@@ -43,8 +43,8 @@ class Weather(Plugin):
     def __init__(self, bot):
         super().__init__(bot)
         self.command_pattern = re.compile(r'^/weather\s+(.+)$')
-        # 新API不需要API密钥
-        self.base_url = "v2.xxapi.cn"
+        # 请调用你自己的API
+        self.base_url = "0000"
         # 星期几中文表示
         self.weekdays = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
         # 天气图标映射
