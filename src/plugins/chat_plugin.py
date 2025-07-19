@@ -344,7 +344,7 @@ class ChatPlugin(Plugin):
     async def call_api(self, user_message: str, group_id: Optional[Union[int, str]] = None) -> Optional[str]:
         """调用第三方AI API获取回复"""
         try:
-            conn = http.client.HTTPSConnection("apiserver.alcex.cn")
+            conn = http.client.HTTPSConnection("请调用你自己的API.com")
             
             # 获取当前人格设定
             current_persona = self.personas[self.current_persona]
@@ -381,7 +381,7 @@ class ChatPlugin(Plugin):
                 'Content-Type': 'application/json'
             }
             
-            # conn.request("POST", "", payload, headers)
+            # conn.request("POST", "请调用你自己的API", payload, headers)
             res = conn.getresponse()
             data = res.read()
             
