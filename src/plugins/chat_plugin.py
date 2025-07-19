@@ -381,7 +381,7 @@ class ChatPlugin(Plugin):
                 'Content-Type': 'application/json'
             }
             
-            # conn.request("POST", "请调用你自己的API", payload, headers)
+            conn.request("POST", "请调用你自己的API", payload, headers)
             res = conn.getresponse()
             data = res.read()
             
